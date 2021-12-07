@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<html>
+    <head>
+        <title>Página de Login</title>
+    </head>
+    <body>
+      <div id="interface">
+      <p id="subtitulo">Bem Vindo a página do Login, aqui você irá preencher todos os campos.</p>
+      
+      <br />
+      <hr />
+      <hr />
+      </br />
+      
+      <h1 id="titulo">Login</h1>
+      <form>
+        <fieldset class="grupo">
+          <div class="campo">
+            <label for="email"><strong>Email:</strong></label>
+            <input type="email" nome="email" id="email" required>
+          </div>
+          <div class="campo">
+            <label for="senha"><strong>Senha:</strong></label>
+            <input type="password" nome="senha" id="senha" required>
+          </div>
+        </fieldset>
+        
+                  <br />
+                  <hr />
+                  <hr />
+                  </br />
+      
+          </div>
+      </form>
+      
+     <a href="#voltar">Voltar</a>
+ 
+      <style>
+      a {
+        display: block;
+        width: 100px;
+        height: 30px;
+        line-height: 35px;
+        padding: 5px 5px;
+        margin: 10px;
+        background-color: #2F4F4F;
+        color: #F0FFF0;
+        border-radius: 20px;
+        text-decoration: none;
+        text-align: center;
+        font-weight: bold;
+        font-family: Arial;
+      } 
+
+     { 
+       margin: 0;
+       padding: 0;
+     }
+
+     body{     
+       background-color: #4B0082;
+       color: rgba(0,0,0,1);
+     }
+
+     div#interface{
+       width: 800px;
+       background-color: #ffffff;
+       margin: 20px auto 0px auto;
+       box-shadow: 0px 0px 10px rgba(0,0,0, .5);
+       padding: 10px;
+     }
+       
+     #titulo{
+       font-family: sans-serif;
+       color: #380B61;
+       margin-left: 7%;
+     }
+ 
+     #subtitulo{
+       font-family: sans-serif;
+       color: #380B61;
+       margin-left: 10%;
+     }
+
+     fieldset{
+       border: 0;
+     }
+
+  
+     input, select, button{
+       border-radius: 5px;
+     }
+  
+     .campo {
+       margin-botton: 1em
+     }
+  
+     .campo label{
+       margin-botton: 0.2em;
+       color: #59429d;
+       display: block;
+     }
+
+     fieldset.grupo .campo{
+       float: left;
+       margin-right: 1em;
+     }
+
+      </style>
+    </div>
+    </body>
+</html>
