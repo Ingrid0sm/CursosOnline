@@ -3,10 +3,6 @@
 <html>
     <head>
         <title>Página Curso de Outras Áreas</title>
-        <style>
-            h1{front-size:30px}
-            body{background-color:#f5ffa} 
-        </style>
     </head>
     <body>
       <div id="interface">
@@ -25,13 +21,14 @@
       <p id="subtitulo"><b>Público Alvo:</b>  Este Curso é direcionado para jovens e adultos em busca de qualificação profissional, estudantes, profissionais em geral e demais interessados, nas áreas como zelador, etc.</p>
       <p id="subtitulo"><b>Pré-requisitos:</b>  Há exigência de escolaridade para este Curso é de ensino médio completo, com a idade mínima de 18 anos.</p>
       <p id="subtitulo"><b>Objetivo:</b>  Este curso objetiva capacitar profissionais de diversas áreas do conhecimento e estudantes que desejam atualizar-se no assunto, que estão em busca de novos desafios, e desejam obter maior aprendizado sobre o tema.</p>
+        <br>
+        <button class="botao" type="submit">Volatr</button>
       
       <br />
       <hr />
       <hr />
       <br />
       
-     <a href="#voltar">Voltar</a>
       <style>
         body{
           background-color: #4B0082;
@@ -46,22 +43,6 @@
          padding: 10px;
        }
         
-      a {
-        display: block;
-        width: 100px;
-        height: 30px;
-        line-height: 35px;
-        padding: 5px 5px;
-        margin: 10px;
-        background-color: #2F4F4F;
-        color: #F0FFF0;
-        border-radius: 20px;
-        text-decoration: none;
-        text-align: center;
-        font-weight: bold;
-        font-family: Arial;
-      }
-      
       {
         margin: 0;
         padding: 0;
@@ -77,6 +58,24 @@
         font-family: sans-serif;
         color: #380B61;
         margin-left: 10%;
+      }
+        
+      input, select, textarea, button{
+        border-radius: 5px;
+      }
+        
+      .botao:hover{
+        background: #ccbbff;
+        box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+        text-shadow: none;
+      }
+  
+      .botao, select{
+        cursos: pointer;
+      }
+  
+      #check{
+        display: inline-block;
       }
       </style>
       </div>

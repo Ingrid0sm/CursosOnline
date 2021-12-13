@@ -4,7 +4,7 @@
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      
-     <title>Página de Cadastro</title>
+     <title>Cadastro dos Cursos</title>
    </head>
 <body>
   <div id="interface">
@@ -24,56 +24,48 @@
   <form>
     <fieldset class="grupo">
       <div>
-        <label for="nome"><strong>Nome</strong></label>
-        <input type="text" nome="nome" id="nome" required>
+        <label for="curso"><strong>Curso</strong></label>
+        <input type="text" nome="curso" id="curso" required>
       </div>
         
         <div class="campo">
-          <label for="sobrenome"><strong>Sobrenome</strong></label>
-          <input type="text" nome="sobrenome" id="sobrenome" required>
+          <label for="valor"><strong>Valor</strong></label>
+          <input type="text" nome="valor" id="valor" required>
         </div>
     </fieldset>
     
     <div class="campo">
-      <label for="email"><strong>Email</strong></label>
-      <input type="email" nome="email" id="email" required>
+      <label for="carga"><strong>Carga Horária</strong></label>
+      <input type="email" nome="carga" id="carga" required>
     </div>
     
     <div class="campo">
-      <label for="senha"><strong>Senha</strong></label>
-      <input type="password" nome="senha" id="senha" required>
-    </div>
-    
-    <div class="campo">
-      <label for="data"><strong>Data de Nascimento</strong></label>
+      <label for="data"><strong>Data de Início do Curso</strong></label>
       <input type="date" nome="data" id="data" required>
     </div>
     
     <div class="campo">
-      <label for="gênero"><strong>Gênero</strong></label>
+      <label for="certificado"><strong>Deseja certificado?</strong></label>
       <select>
-        <option value="masculino">Masculino</option>
-        <option value="feminino">Feminino</option>
-        <option value="prefiro não informar">Prefiro não informar</option>
+        <option value="sim">Sim</option>
+        <option value="nao">Não</option>
       </select>
     </div>
     
-    <fieldset class="grupo">
+   <fieldset class="grupo">
     <div class="campo">
-      <label><strong>Qual <em>Curso</em> você irá relaizar?</strong></label>
+      <label><strong>Em qual idioma você quer ter acesso ao material do <em>Curso</em>?</strong></label>
       <br>
-      <input type="checkbox" id="curso1" nome="curso1" value="Informática">
-      <label for="curso1">Informática</label>
-      <input type="checkbox" id="curso2" nome="curso2" value="Segurança">
-      <label for="curso2">Segurança</label>
-      <input type="checkbox" id="curso3" nome="curso3" value="Educação">
-      <label for="curso3">Educação</label>
-      <input type="checkbox" id="curso4" nome="curso4" value="Contabilidade">
-      <label for="curso4">Contabilidade</label>
-      <input type="checkbox" id="curso5" nome="curso4" value="ServiçosGerais">
-      <label for="curso5">Serviços Gerais</label>
+      <input type="checkbox" id="idioma1" nome="idioma1" value="Ingles">
+      <label for="idioma1">Inglês</label>
+      <input type="checkbox" id="idioma2" nome="idioma2" value="Portugues(Brasil)">
+      <label for="idioma2">Português(Brasil)</label>
+      <input type="checkbox" id="idioma3" nome="idioma3" value="Alemao">
+      <label for="idioma3">Alemão</label>
+      <input type="checkbox" id="idioma4" nome="idioma4" value="Espanhol">
+      <label for="idioma4">Espanhol</label>
     </div>
-    </fieldset>
+   </fieldset>
     
     <div>
       <br>
@@ -94,20 +86,32 @@
   <hr>
   <table border="1">
     <tr>
-      <td>ingridsouza@gmail.com</td>
-      <td>Informática</td>
+      <td>Infórmatica</td>
+      <td>R$00,00</td>
+      <td>40 horas</td>
+      <td>01/04/2021</td>
+      <td>Certificado/Sim</td>
+      <td>Inglês</td>
       <td><button class="botao" type="submit">Editar</button></td>
       <td><button class="botao" type="submit">Apagar</button></td>
     </tr>
     <tr>
-      <td>anamaria47@gmail.com</td>
       <td>Educação</td>
+      <td>R$00,00</td>
+      <td>60 horas</td>
+      <td>27/07/2021</td>
+      <td>Certificado/Sim</td>
+      <td>Português(Brasil)</td>
       <td><button class="botao" type="submit">Editar</button></td>
       <td><button class="botao" type="submit">Apagar</button></td>
     </tr>
     <tr>
-      <td>emanuelsouza@gmail.com</td>
       <td>Segurança</td>
+      <td>R$00,00</td>
+      <td>60 horas</td>
+      <td>28/10/2021</td>
+      <td>Certificado/Sim</td>
+      <td>Espanhol</td>
       <td><button class="botao" type="submit">Editar</button></td>
       <td><button class="botao" type="submit">Apagar</button></td>
     </tr>
